@@ -1,7 +1,7 @@
 import requests
 
 class ChatSession:
-    def __init__(self, api_key="4ykrfqHkT6anpHa0dfndKXQaON62wS1k", external_user_id="ayush"):
+    def __init__(self, api_key="", external_user_id=""):
         self.api_key = api_key
         self.external_user_id = external_user_id
         self.session_id = None

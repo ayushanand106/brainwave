@@ -14,9 +14,9 @@ app = FastAPI()
 
 # Configure your Cloudinary account
 cloudinary.config(
-    cloud_name="dglgykszv",
-    api_key="962769584319444",
-    api_secret="-KIVyDyQket7-DTjBhMgYHFcBLo"
+    cloud_name="",
+    api_key="",
+    api_secret=""
 )
 
 # Configure CORS
