@@ -13,20 +13,20 @@ from youtube_search import YoutubeSearch
 app = FastAPI()
 
 # Configure your Cloudinary account
-cloudinary.config(
-    cloud_name="",
-    api_key="",
-    api_secret=""
-)
+# cloudinary.config(
+#     cloud_name="",
+#     api_key="",
+#     api_secret=""
+# )
 
-# Configure CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Adjust this to specify allowed origins
-    allow_credentials=True,
-    allow_methods=["*"],  # Adjust this to specify allowed HTTP methods
-    allow_headers=["*"],  # Adjust this to specify allowed headers
-)
+# # Configure CORS
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],  # Adjust this to specify allowed origins
+#     allow_credentials=True,
+#     allow_methods=["*"],  # Adjust this to specify allowed HTTP methods
+#     allow_headers=["*"],  # Adjust this to specify allowed headers
+# )
 
 chat_session = ChatSession()
 
